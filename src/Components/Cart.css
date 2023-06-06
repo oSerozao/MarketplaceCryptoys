@@ -1,0 +1,103 @@
+.allcartitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cart-head {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 3px;
+    color: #ffbb00;
+    border-bottom: 3px solid #ffbb00;
+    
+}
+
+
+.proceed {
+    display: flex;
+    justify-content: center;
+}
+
+.proceed button {
+    background-color: white;
+    color: #ffbb00;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #ffbb00;
+    border-radius: 10px;
+}
+
+.proceed button:hover {
+    background-color: black;
+}
+
+.emptycartbody {
+    background-image: url('../Components/assets/cartempty.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+}
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+
+
+.mt-100{
+   margin-top:50px;
+   background: transparent;
+   background-color: transparent;
+   font-family: 'Calibri', sans-serif !important;
+}
+
+
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 5px 24px 0 rgba(68,102,242,.05);
+    box-shadow: 1px 5px 24px 0 rgba(68,102,242,.05);
+}
+
+.card .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 24px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.textcolor {
+    color: #ffffff;
+}
+.textcolorcart {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+
+
+.card .card-body {
+    padding: 30px;
+    background-color: transparent;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    background-color: #4466f2!important;
+    border-color: #4466f2!important;
+}
